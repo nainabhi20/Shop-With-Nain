@@ -1,9 +1,9 @@
 
 import axios from 'axios';
 const DEPLOYED='https://shop-with-nain-backend.onrender.com'
-const LOCALHOST='http://localhost:5454'
+const LOCALHOST='http://localhost:8080'
 
-export const API_BASE_URL = DEPLOYED;
+export const API_BASE_URL = LOCALHOST;
 
 const api = axios.create({
   baseURL: API_BASE_URL,
